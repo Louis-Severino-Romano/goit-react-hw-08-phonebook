@@ -2,11 +2,6 @@ import { useDispatch } from 'react-redux';
 import { register } from '../../redux/auth/authOperations';
 import css from './RegisterForm.module.css';
 
-/* Controlled Form Component vs Uncontrolled Form Component
- *
- * Controlled - data is controlled by state
- * Uncontrolled - data is controlled by the DOM
- */
 
 export const RegisterForm = () => {
   const dispatch = useDispatch();

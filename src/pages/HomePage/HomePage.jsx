@@ -8,7 +8,7 @@ const HomePage = () => {
         <title>Task Manager 1</title>
       </Helmet>
       <div className={css.container}>
-        <h1 className={css.title}>Task Manager welcome page</h1>
+        <h1 className={css.title}>Welcome User</h1>
       </div>
     </HelmetProvider>
   );
